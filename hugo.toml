@@ -62,10 +62,10 @@
     # Customized info shown in header of the page
     [params.header]
         # Website title for header banner.
-        title = "My New Hugo Site"
+        title = "資材置き場"
 
         # Subtitle for this site, used in homepage only
-        subtitle = "A Site Built by Hugo"
+        subtitle = "主にMisskeyに関する情報"
 
         # Config about your's site logo, remove this item to hide the logo
         [params.header.logo]
@@ -103,7 +103,8 @@
         # The format of the `modifiedTime`.
         # Refer to page https://gohugo.io/functions/format/ for more detail.
         # Below is the default format, please do not remove it, unless you set `false` in `modifiedTime` field.
-        dateFormat = "Jan 02 2006 15:04:05"
+        dateFormat = "2006.01.02 15:04:05"
+        #dateFormat = "Jan 02 2006 15:04:05"
 
         # Should show the current git HEAD hash or not
         # To make this show up correctly, please follow the prerequisites in page
@@ -131,25 +132,25 @@
         # 1. the footer of all page
         # 2. the author filed in the single page. (this could be overwritten by the frontmatter of the single page.)
         # Keep it an empty string or remove this item will hide it from the page
-        author = "Jing Wang"
+        author = "kanade"
         
         # Website description for RSS and SEO. Theme will generate a <meta> tag for this item
-        description = "This is my new hugo site"
+        description = ""
 
         # Website keywords. Theme will generate a <meta> tag for this item.
-        keywords = "hugo,site,new"
+        keywords = "Misskey, kanade, もふもふクラブ, 四畳半"
 
     # Parameters applied in the homepage only
     [params.homePage]
         # Long Descripition shown in home page "Start Block". Is is recommended to have the paragraph shorter than 100 words.        
-        siteLongDescription = "Hugo is a fast and easy-to-use static website generator written in Go. It renders a complete HTML website from content and templates in a directory, utilizing Markdown files for metadata. It's optimized for speed and suitable for various website types."
+        siteLongDescription = "aaaaaaaaaaa"
 
         # If you don't like the title of "siteLongDescription" be "Start" (default), 
         # you may change the value of this item to "Description" or something you like.
         siteLongDescriptionTitle = "Start"
 
         # Param to decide whether to show the most recent blog posts or not. (Default: true)
-        showRecentPostsBlock = true
+        showRecentPostsBlock = false
 
         # Param to decide how many recent posts to show in the home page. (Default: 5)
         numOfRecentPosts = 5
@@ -157,7 +158,7 @@
         # Parameter to decide whether to show the URL behind the title.
         # It will be more like an editor if it is shown. However, in general, it can be messy if it is displayed.        
         # (Default: true)
-        recentPostShowUrl = true
+        recentPostShowUrl = false
     
     
     # Paramater applied in the single page
